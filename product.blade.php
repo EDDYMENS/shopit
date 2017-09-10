@@ -115,8 +115,8 @@
                                                 <input type="text" class="form-control" name="sku_code" placeholder="SKU code">
                                                 <br>
                                                
-                                                <select  name="shopit_category_id" class="categories form-control">
-                                                    <option value="">...</option>
+                                                <select  name="shopit_category_id" class="category_list categories form-control">
+                                                    <option value="1">...</option>
                                                 </select>
                                                 <br>
                                                 <input type="text" class="form-control" name="price" placeholder="Price">
@@ -152,7 +152,7 @@
                                                 <br>
                                                 <input type="text" class="form-control" name="sku_code" placeholder="SKU code">
                                                 <br>
-                                                <select id="categories" name="shopit_category_id" class="categories form-control">
+                                                <select   name="shopit_category_id" class="category_list categories form-control">
                                                     <option value="1">...</option>
                                                 </select>
                                                 <br>
@@ -196,7 +196,7 @@
         $.each(categoryArray, function(index, val) {
             categories += `<option value='${val.id}'>${val.category_name}</option>`;
         });
-        $('#categories').html(categories);
+        $('.category_list').html(categories);
     });
     devlessCallbacks(function(resp){
 	if(resp.status_code == 609) {

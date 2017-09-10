@@ -69,7 +69,8 @@
                                 <tr>
                                     <th>SKU Code</th>
                                     <th>Name</th>
-                                    <th>Category</th>
+                                    <th>Image</th>
+				    <th>Category</th>
                                     <th>Description</th>
                                     <th>Price</th>
                                     <th>Discount</th>
@@ -79,6 +80,7 @@
                                     <tr>
                                         <td class="var-sku_code">...</td>
                                         <td class="var-name">...</td>
+					<td><img class="var-image_url" src="" width="40" height="40">	
                                         <td class="var-category hidden">...</td>
                                         <td class="var-category-category_name">...</td>
                                         <td class="var-description">...</td>

@@ -157,10 +157,12 @@
                                                 <input type="text" class="form-control" name="price" placeholder="Price">
                                                 <br>
                                                 <input type="text" class="form-control" name="discount" placeholder="Disount">
+<br><input type="file" class="form-conrol" name="image_url" placeholder="Product Image"><br>
+
                                                 <br>
                                                  <textarea name="description" class="form-control">
                                                     
-                                                </textarea>
+                                                </textarea><br>
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                                 <button type="submit" class="btn btn-primary">Save changes</button>
                                             </form>

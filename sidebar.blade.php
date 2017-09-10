@@ -8,7 +8,7 @@
                                 <li><a><i class="fa fa-edit"></i> Orders <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="/service/shopit/view/pending/">Pending</a></li>
-                                        <li><a href="/service/shopit/view/processed/">Precessed</a></li>
+                                        <li><a href="/service/shopit/view/processed/">Processed</a></li>
                                         <li><a href="/service/shopit/view/cancelled/">Cancelled</a></li>
                                     </ul>
                                 </li>

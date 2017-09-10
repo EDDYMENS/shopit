@@ -23,29 +23,9 @@
                         </div>
                     </div>
                     <!-- /menu profile quick info -->
-                    <br />
-                    <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-                        <div class="menu_section">
-                            <h3>General</h3>
-                            <ul class="nav side-menu">
-                                <li><a href="/pages/home"><i class="fa fa-home"></i> Home</a>
-                                </li>
-                                <li><a><i class="fa fa-edit"></i> Orders <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu">
-                                        <li><a href="/pages/orders/pending">Pending</a></li>
-                                        <li><a href="/pages/orders/processed">Precessed</a></li>
-                                        <li><a href="/pages/orders/cancelled">Cancelled</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="/pages/products"><i class="fa fa-desktop"></i> Products</a>
-                                </li>
-                                <li><a href="/pages/categories"><i class="fa fa-table"></i> Categories </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /sidebar menu -->
+                
+    <br />
+<?php DvInclude($payload, 'sidebar.blade.php'); ?>
                 </div>
             </div>
             <!-- top navigation -->

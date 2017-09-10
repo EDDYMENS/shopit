@@ -193,5 +193,11 @@
         });
         $('#categories').html(categories);
     });
+    devlessCallbacks(function(resp){
+	if(resp.status_code == 609) {
+		window.location = location;
+	}
+
+    });
     </script>
 

@@ -8,7 +8,7 @@
             <div class="animate form login_form">
                 <section class="login_content">
                     <h1><i class="fa fa-paw"></i> Devless E-commerce</h1>
-                    <form class="dv-signin" action="pages/home">
+                    <form class="dv-signin" action="/service/shopit/view/home/">
                         <h1>Login Form</h1>
                         <div>
                             <input type="text" name="email" class="form-control" placeholder="Email" required="" />
